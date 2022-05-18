@@ -120,7 +120,7 @@ Write a function that produces output according to a format.
 - You don’t have to handle precision
 - You don’t have to handle the length modifiers
 
-**Solution:** [printf](https://github.com/essilfiequansah/alx-low_level_programming/blob/main/printf)
+**Solution:** [printf](https://github.com/essilfiequansah/printf)
 
 ## 1. Education is when you read the fine print. Experience is what you get if you don't
 
@@ -133,7 +133,7 @@ Handle the following conversion specifiers:
 - You don’t have to handle precision
 - You don’t have to handle the length modifiers
 
-**Solution:** [printf](https://github.com/essilfiequansah/alx-low_level_programming/blob/main/printf)
+**Solution:** [printf](https://github.com/essilfiequansah/printf)
 
 ## Authors
 
