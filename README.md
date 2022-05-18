@@ -125,4 +125,4 @@ Write a function that produces output according to a format.
 ## Authors
 
 - **Benjamin Essilfie Ofori-Quansah** - [View Profile](https://github.com/essilfiequansah)
-- **Othina Omollo** - [View Profile](https://github.com/)
+- **Othina Omollo** - [View Profile](https://github.com/felixfixo)
