@@ -59,6 +59,7 @@ do {
 mod = num % base;
 *--ptr = representation[mod];
 num /= base;
-} while (num != 0);
+}
+while (num != 0);
 return (ptr);
 }
