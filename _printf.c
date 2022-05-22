@@ -3,10 +3,9 @@
 #include <unistd.h>
 #include "main.h"
 /**
- *_printf - printf
- *@format: const char pointer
- *Description: this functions implement some functions of printf
- *Return: num of characteres printed
+ * find_correct_func - finding the format for _printf
+ * @format: format
+ * Return: NULL
  */
 int (*find_correct_func(const char *format))(va_list)
 {
