@@ -11,7 +11,9 @@ const char *string;
 int cont = 0;
 va_list arg;
 if (!format)
+{
 return (-1);
+}
 va_start(arg, format);
 string = format;
 cont = loop_format(arg, string);
@@ -36,9 +38,13 @@ if (aux == '%')
 i++, flag++;
 aux = string[i];
 if (aux == '\0' && _strlen((char *)string) == 1)
+{
 return (-1);
+}
 if (aux == '\0')
+{
 return (cont);
+}
 if (aux == '%')
 {
 flag++;
@@ -50,7 +56,9 @@ if (cont_fm >= 0 && cont_fm != -1)
 i++;
 aux = string[i];
 if (aux == '%')
+{
 flag--;
+}
 cont = cont + cont_fm;
 } else if (cont_fm == -1 && aux != '\n')
 {
@@ -61,7 +69,9 @@ cont += _putchar('%');
 check_per = check_percent(&flag, aux);
 cont += check_per;
 if (check_per == 0 && aux != '\0' && aux != '%')
+{
 cont += _putchar(aux), i++;
+}
 check_per = 0;
 }
 return (cont);
